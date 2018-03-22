@@ -1,2 +1,14 @@
-t
+Tuto 1 js mongodb
 https://medium.com/of-all-things-tech-progress/starting-with-authentication-a-tutorial-with-node-js-and-mongodb-25d524ca0359
+
+
+Stackoverflow
+https://stackoverflow.com/questions/8051631/creating-registration-and-login-form-in-node-js-and-mongodb
+
+
+DBzone
+https://dzone.com/articles/using-mongodb-and-mongoose
+
+
+Tuto 2
+https://github.com/braitsch/node-login
