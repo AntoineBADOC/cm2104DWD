@@ -29,5 +29,6 @@ app.get('/logout', steam.enforceLogin('/'), function(req, res) {
     res.redirect('/');
 });
 
+
 app.listen(8080);
 console.log('listening');
