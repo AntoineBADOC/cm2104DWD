@@ -9,7 +9,7 @@ app.use(steam.middleware({
     realm: 'https://quality-copper-8080.codio.io/',
     //verify: 'http://localhost:3000/verify',
     verify: 'https://quality-copper-8080.codio.io/verify',
-    apiKey: process.argv[2]}
+    apiKey: "EDD00D436E843A91B1C869A8522CDD33"}
 ));
 
 app.get('/', function(req, res) {
