@@ -14,7 +14,7 @@ app.use(steam.middleware({
 ));
 
 app.get('/', function(req, res) {
-    res.send(req.user == null ? 'not logged in' : 'hello ' + req.user.username + req.user.steamid).end();
+    res.send(req.user == null ? 'not logged in' : 'hello ' + req.user.username + ', your steam id is: ' +req.user.steamid).end();
 });
 
 app.get('/authenticate', steam.authenticate(), function(req, res) {
