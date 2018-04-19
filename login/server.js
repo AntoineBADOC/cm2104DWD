@@ -18,7 +18,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/authenticate', steam.authenticate(), function(req, res) {
-    res.redirect("https://quality-copper-8080.codio.io/");
+    res.redirect("/");
 });
 
 app.get('/verify', steam.verify(), function(req, res) {
