@@ -9,7 +9,7 @@ app.use(steam.middleware({
     realm: 'https://quality-copper-8080.codio.io/',
 
     verify: 'https://quality-copper-8080.codio.io/verify',
-    apiKey: "EDD00D436E843A91B1C869A8522CDD33";
+    apiKey: "EDD00D436E843A91B1C869A8522CDD33"
   }
 ));
 
