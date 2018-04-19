@@ -25,7 +25,7 @@ app.get('/verify', steam.verify(), function(req, res) {
     res.send(req.user).end();
 });
 
-app.get('/logout', steam.disconnect(), function(req, res) {
+app.get('/logout', steam.logOff(), function(req, res) {
     req.logout();
     res.redirect('/');
 });
