@@ -29,8 +29,7 @@ app.get('/', function(req, res) {
 
 //
 app.get('/authenticate', steam.authenticate(), function(req, res) {
-
-    res.redirect("/"?steamid=req.user.steamid);
+    res.redirect("/");
 });
 
 //
