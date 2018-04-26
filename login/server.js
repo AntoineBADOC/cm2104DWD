@@ -22,14 +22,15 @@ app.use(steam.middleware({
   }
 ));
 
-//
+//home page, show username and steamid if user is logged
 app.get('/', function(req, res) {
     res.send(req.user == null ? 'not logged in' : 'hello ' + req.user.username + ', your steam id is: ' +req.user.steamid).end();
 });
 
 //
 app.get('/authenticate', steam.authenticate(), function(req, res) {
-    res.redirect("/");
+
+    res.redirect("/"?steamid=req.user.steamid);
 });
 
 //
